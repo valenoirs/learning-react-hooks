@@ -10,7 +10,7 @@ const UseState = (props) => {
 
     const updateObject = (event) => {
         setObject(prev => {
-            return {...prev, first: 'Second', second: 'Third'}
+            return {...prev, first: 'Second', second: 'Third'} // Insert default value first before update the other value
         })
     }
 
