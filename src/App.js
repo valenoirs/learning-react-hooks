@@ -6,8 +6,9 @@ import UseEffect from './module/UseEffect'
 import UseContext from './module/UseContext/UseContext';
 import UseRef from './module/UseRef'
 import UseReducer from './module/UseReducer'
-import UseCallback from './module/useCallback/UseCallback'
+import UseCallback from './module/UseCallback/UseCallback'
 import UseMemo from './module/UseMemo'
+import CustomHook from './module/CustomHook/CustomHook'
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         {/* <UseRef /> */}
         {/* <UseReducer /> */}
         {/* <UseCallback /> */}
-        <UseMemo />
+        {/* <UseMemo /> */}
+        <CustomHook />
     </main>
   );
 }
