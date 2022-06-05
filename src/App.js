@@ -7,6 +7,7 @@ import UseContext from './module/UseContext/UseContext';
 import UseRef from './module/UseRef'
 import UseReducer from './module/UseReducer'
 import UseCallback from './module/useCallback/UseCallback'
+import UseMemo from './module/UseMemo'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         {/* <UseContext /> */}
         {/* <UseRef /> */}
         {/* <UseReducer /> */}
-        <UseCallback />
+        {/* <UseCallback /> */}
+        <UseMemo />
     </main>
   );
 }
