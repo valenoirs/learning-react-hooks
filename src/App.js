@@ -5,6 +5,7 @@ import UseState from './module/UseState'
 import UseEffect from './module/UseEffect'
 import UseContext from './module/UseContext/UseContext';
 import UseRef from './module/UseRef'
+import UseReducer from './module/UseReducer'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         {/* <UseState /> */}
         {/* <UseEffect /> */}
         {/* <UseContext /> */}
-        <UseRef />
+        {/* <UseRef /> */}
+        <UseReducer />
     </main>
   );
 }
